@@ -1,0 +1,18 @@
+# add files you wish to ignore here
+**/*.md
+**/*.svg
+**/test.ts
+# **/*.html
+# **/*.scss
+# **/*.less
+# **/*.css
+
+node_modules/
+coverage/
+dist/
+
+**/template/*
+
+package.json
+package-lock.json
+src/index.html
