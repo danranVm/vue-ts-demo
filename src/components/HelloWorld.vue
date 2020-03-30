@@ -99,13 +99,13 @@ export default class HelloWorld extends Vue {
   @Prop() private msg!: string
 
   test(): void {
-   /**
-    * auto tip user
-    * (property) State.user: {
-    *    users: User[];
-    *    isCached: boolean;
-    *  }
-    */
+    /**
+     * auto tip test
+     * (property) State.test: {
+     *    users: User[];
+     *    isCached: boolean;
+     *  }
+     */
     this._store.state
     // Argument of type '"xxx"' is not assignable to parameter of type '"updateState"'.
     this._store.dispatch('xxx')

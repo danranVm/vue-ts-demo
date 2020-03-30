@@ -6,7 +6,7 @@ import { test } from './modules/test'
 
 Vue.use(Vuex)
 
-export const store = new Vuex.Store<State>({
+export default new Vuex.Store<State>({
   modules: {
     test,
   },
